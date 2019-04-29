@@ -1,0 +1,17 @@
+repos:
+  - name: managed-prometheus-exporter-dns
+    url: https://github.com/openshift/managed-prometheus-exporter-dns.git
+    make: true
+    multi_dir: false
+  - name: managed-prometheus-exporter-stuck-ebs-vols
+    url: https://github.com/openshift/managed-prometheus-exporter-stuck-ebs-vols.git
+    make: true
+    multi_dir: false 
+  - name: managed-prometheus-exporter-ebs-iops-reporter
+    url: https://github.com/openshift/managed-prometheus-exporter-ebs-iops-reporter.git
+    make: true 
+    multi_dir: false
+  - name: managed-cluster-config
+    url: https://github.com/openshift/managed-cluster-config.git
+    make: false 
+    multi_dir: true
